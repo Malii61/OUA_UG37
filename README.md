@@ -23,6 +23,15 @@
 # Hedef Kitle
 - Genel Kitle
 
+# SPRİNT 1
+
+- Sprint notları : Proje için planlama ve görev dağılımları yapıldı, görevlerin yönetimi için trello kullanımına karar verildi.
+- **Sprint için tamamlanması tahmin edilen puan: 60 Puan **
+- Puan tamamlama mantığı: Toplamda 200 puanlık backlog bulunmaktadır. İlk Sprint için 60 puan ile başlamaya karar verildi.
+- Daily Scrum : Daily Scrum toplantıları discord üzerinden yapılmıştır
+- Sprint board update görselleri
+  
+
 
 
 
