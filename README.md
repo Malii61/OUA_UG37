@@ -11,7 +11,7 @@
 
 # Oyun Açıklaması
 
-**Moonshade sizi, yaratıkların köyünüzü lanetleyip herkesi uyuttuğu bir dünyaya götürüyor. Sadece siz ve üç arkadaşınız uyanık kaldınız. Fenerlerinizin özel aydınlatması, sembolleri ve gizli yolları ortaya çıkararak yolunuzu bulmanızda yardımcı oluyor .Fenerlerin rehberliğinde sembolleri takip ederek ritüeli bozacak malzemeleri bulun. Yaratıklardan saklanın, tehklikeli labirenti keşfedin, hayaletlerden kaçın ve sonunda ritüeli bozarak deliren yaratıklardan kurtulun. Moonsade, gizemli ve tehlikeli bir dünyada geçen heyecan verici bir macera ve strateji oyunudur!**
+**Moonshade sizi, yaratıkların köyünüzü lanetleyip herkesi uyuttuğu bir dünyaya götürüyor. Sadece siz ve üç arkadaşınız uyanık kaldınız. Fenerlerinizin özel aydınlatması, sembolleri ve gizli yolları ortaya çıkararak yolunuzu bulmanızda yardımcı oluyor .Fenerlerin rehberliğinde sembolleri takip ederek ritüeli bozacak malzemeleri bulun. Yaratıklardan saklanın, tehlikeli labirenti keşfedin, hayaletlerden kaçın ve sonunda ritüeli bozarak deliren yaratıklardan kurtulun. Moonshade, gizemli ve tehlikeli bir dünyada geçen heyecan verici bir macera ve strateji oyunudur!**
 
 # Oyun Özellikleri
 
