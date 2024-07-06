@@ -17,7 +17,7 @@
 
 - 3D
 - Multiplayer
-- Gameanalytics, oyun içi veriler işlenmektedir.
+- Gameanalytics
 - FPS
 
 # Hedef Kitle
