@@ -10,10 +10,6 @@ public class EnemyAnimatorOverrider : MonoBehaviour
     }
     public AnimatorOverrideController GetAnimatorOverride(EnemyType enemyType)
     {
-        return enemyType switch
-        {
-            EnemyType.BunnyGirl => animatorOverrides[1],
-            _ => animatorOverrides[0],
-        };
+        return default;
     }
 }

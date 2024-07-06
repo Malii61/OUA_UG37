@@ -4,8 +4,8 @@ using UnityEngine;
 using System;
 public enum EnemyType
 {
-    SchoolGirl,
-    BunnyGirl,
+    Ghost,
+    HorrorMan,
 }
 [Serializable]
 public class EnemyInfo
@@ -20,26 +20,5 @@ public class EnemySpawner : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-    }
-    private void Start()
-    {
-        if (PhotonNetwork.IsMasterClient)
-        {
-            SpawnEnemy(EnemyType.SchoolGirl);
-        }
-    }
-    public void SpawnEnemy(EnemyType enemyType)
-    {
-        EnemyInfo enemyInfo = FindEnemyByType(enemyType);
-        PhotonNetwork.Instantiate("PhotonPrefabs/Enemies/" + enemyInfo.type.ToString(), enemyInfo.transform.position, enemyInfo.transform.rotation);
-    }
-    private EnemyInfo FindEnemyByType(EnemyType type)
-    {
-        foreach(EnemyInfo enemy in enemies)
-        {
-            if (enemy.type == type)
-                return enemy;
-        }
-        return default;
     }
 }

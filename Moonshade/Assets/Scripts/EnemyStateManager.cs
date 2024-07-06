@@ -14,7 +14,7 @@ public class EnemyStateManager : MonoBehaviour
     //     switch (key)
     //     {
     //         case KeyType.HouseKey:
-    //             EnemySpawner.Instance.SpawnEnemy(EnemyType.BunnyGirl);
+    //             EnemySpawner.Instance.SpawnEnemy(EnemyType.HorrorMan);
     //             break;
     //         case KeyType.MainGateKey:
     //             break;

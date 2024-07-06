@@ -27,11 +27,11 @@ public class EnemyController : MonoBehaviour
 
     private float minDistance = 1f; // Hedefe olan minimum mesafe
     private float maxDistance = 10f; // Hedefe olan maksimum mesafe
-    private float checkInterval = 3f; // Kontrol aralýðý
-    public float smallMovementThreshold = 1f; // Ufak hareketler için eþik deðeri
-    private bool isStuck = false; // Takýldýðý durumu tutan deðiþken
-    private Vector3 lastPosition; // Son pozisyonu tutan deðiþken
-    private float stuckTimer = 0f; // Kontrol aralýðýný takip eden zamanlayýcý
+    private float checkInterval = 3f; // Kontrol aralï¿½ï¿½ï¿½
+    public float smallMovementThreshold = 1f; // Ufak hareketler iï¿½in eï¿½ik deï¿½eri
+    private bool isStuck = false; // Takï¿½ldï¿½ï¿½ï¿½ durumu tutan deï¿½iï¿½ken
+    private Vector3 lastPosition; // Son pozisyonu tutan deï¿½iï¿½ken
+    private float stuckTimer = 0f; // Kontrol aralï¿½ï¿½ï¿½nï¿½ takip eden zamanlayï¿½cï¿½
     public float rotationSpeed = 3f;
     private float raycastDistance = .7f;
 
@@ -64,12 +64,12 @@ public class EnemyController : MonoBehaviour
 
     private void CheckWall()
     {
-        // Düþmanýn hareket etmesi gereken yönde bir raycast oluþtur
+        // Dï¿½ï¿½manï¿½n hareket etmesi gereken yï¿½nde bir raycast oluï¿½tur
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, raycastDistance, wallLayer) && target == null)
         {
-            // Düþmanýn önünde bir engel var
-            // Yönünü deðiþtirerek engelin etrafýndan dolaþmasýný saðla
+            // Dï¿½ï¿½manï¿½n ï¿½nï¿½nde bir engel var
+            // Yï¿½nï¿½nï¿½ deï¿½iï¿½tirerek engelin etrafï¿½ndan dolaï¿½masï¿½nï¿½ saï¿½la
             Vector3 direction = hit.point - transform.position;
             Quaternion rotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Lerp(transform.rotation, rotation, rotationSpeed * Time.deltaTime);
@@ -104,7 +104,7 @@ public class EnemyController : MonoBehaviour
         // Hedefe olan mesafeyi kontrol et
         float distanceToTarget = Vector3.Distance(transform.position, currentTargetPos);
 
-        // Hedefe ulaþamama durumunu kontrol et
+        // Hedefe ulaï¿½amama durumunu kontrol et
         if (distanceToTarget < minDistance || distanceToTarget > maxDistance)
         {
             isStuck = true;
@@ -122,22 +122,22 @@ public class EnemyController : MonoBehaviour
             }
         }
 
-        // Takýlý kaldýðý durumu kontrol et ve gerekli iþlemleri yap
+        // Takï¿½lï¿½ kaldï¿½ï¿½ï¿½ durumu kontrol et ve gerekli iï¿½lemleri yap
         if (isStuck)
         {
-            // Takýldýðý durumda yapýlacak iþlemler
+            // Takï¿½ldï¿½ï¿½ï¿½ durumda yapï¿½lacak iï¿½lemler
             FixStuckPosition();
         }
 
-        // Son pozisyonu güncelle
+        // Son pozisyonu gï¿½ncelle
         lastPosition = transform.position;
     }
 
     private void FixStuckPosition()
     {
-        // Düþmanýn takýldýðý durumu tespit ettiðinizde, pozisyonunu düzeltmek için uygun bir yöntem uygulayýn
-        // Örneðin, düþmaný biraz geri veya yan tarafa hareket ettirebilirsiniz
-        Vector3 newPosition = transform.position + new Vector3(Random.Range(-1, 1), 0f, Random.Range(-1, 1)); // Örnek olarak düþmaný hareket ettiriyoruz
+        // Dï¿½ï¿½manï¿½n takï¿½ldï¿½ï¿½ï¿½ durumu tespit ettiï¿½inizde, pozisyonunu dï¿½zeltmek iï¿½in uygun bir yï¿½ntem uygulayï¿½n
+        // ï¿½rneï¿½in, dï¿½ï¿½manï¿½ biraz geri veya yan tarafa hareket ettirebilirsiniz
+        Vector3 newPosition = transform.position + new Vector3(Random.Range(-1, 1), 0f, Random.Range(-1, 1)); // ï¿½rnek olarak dï¿½ï¿½manï¿½ hareket ettiriyoruz
         transform.position = newPosition;
     }
     private void CheckPlayerAround()
@@ -201,16 +201,16 @@ public class EnemyController : MonoBehaviour
 
     private void RotateEnemyToTarget()
     {
-        // Düþmanýn sizi hedef olarak belirlemesi
+        // Dï¿½ï¿½manï¿½n sizi hedef olarak belirlemesi
         Vector3 targetDirection = target.position - transform.position;
         targetDirection.y = 0f;
         targetDirection.Normalize();
 
-        // Düþmanýn sizi doðru yöne dönmesi
+        // Dï¿½ï¿½manï¿½n sizi doï¿½ru yï¿½ne dï¿½nmesi
         Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
-        // Y eksenindeki rotasyonu sýfýrlama
+        // Y eksenindeki rotasyonu sï¿½fï¿½rlama
         targetRotation *= Quaternion.Euler(0f, 0f, 0f);
 
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
@@ -232,16 +232,16 @@ public class EnemyController : MonoBehaviour
 
     private void SetRandomPatrolPoint()
     {
-        // Ground layer'ýna sahip tüm collider'larý bul
+        // Ground layer'ï¿½na sahip tï¿½m collider'larï¿½ bul
         Collider[] groundColliders = Physics.OverlapSphere(transform.position, 10f, groundLayer);
 
-        // Rastgele bir devriye noktasý seç
+        // Rastgele bir devriye noktasï¿½ seï¿½
         if (groundColliders.Length > 0)
         {
             int randomIndex = Random.Range(0, groundColliders.Length);
 
-            while(groundColliders[randomIndex].CompareTag("House") && enemyType == EnemyType.SchoolGirl ||
-                    !groundColliders[randomIndex].CompareTag("House") && enemyType == EnemyType.BunnyGirl)
+            while(groundColliders[randomIndex].CompareTag("House") && enemyType == EnemyType.Ghost ||
+                    !groundColliders[randomIndex].CompareTag("House") && enemyType == EnemyType.HorrorMan)
 
                 randomIndex = Random.Range(0, groundColliders.Length);
 
