@@ -21,7 +21,9 @@
 - FPS
 
 # Hedef Kitle
-- Genel Kitle
+- PC oyuncuları
+- Gizlilik Türü Sevenler
+- 13+
 
 # Product Backlog URL
 
@@ -33,7 +35,7 @@
 - Sprint için tamamlanması tahmin edilen puan: 60 Puan 
 - Puan tamamlama mantığı: Toplamda 200 puanlık backlog bulunmaktadır.Üç sprintte bölündüğünde ilk Sprint için 60 puan ile başlamaya karar verildi.
 - Daily Scrum : Daily Scrum toplantıları discord üzerinden yapılmıştır
-Toplantı görselleri:
+- Toplantı görselleri:
 
 ![1](https://github.com/Malii61/OUA_UG37/assets/157800967/4fbebb16-b04e-4494-a42b-dfff366b8d4b)
 ![2](https://github.com/Malii61/OUA_UG37/assets/157800967/8e95470e-2267-4eb8-a097-0490e1f8b1f8)
@@ -47,11 +49,16 @@ Toplantı görselleri:
 ![7](https://github.com/Malii61/OUA_UG37/assets/157800967/38ed1242-7629-42f5-804e-108da6fd0876)
 ![sprint 1 board](https://github.com/Malii61/OUA_UG37/assets/157800967/570b7e8c-5555-48a4-9cea-648b98880c7e)
 
+- Ürüm Durumu :
+![8](https://github.com/Malii61/OUA_UG37/assets/157800967/8920d016-ae71-40cb-b978-617f79752d06)
+![9](https://github.com/Malii61/OUA_UG37/assets/157800967/ee219236-3ca4-4f17-9705-33324ba9404e)
+
 # Sprint Review
-- Oyunun low poly tasarlanılmasına karar verilmiştir.
-- Önceliklendirilen görev dağılımı takım içi yapılmıştır.
-- Test için daha fazla süre ayrılacaktır
-- Diğer sprintin daha yoğun tempoda olunmasına karar verildi
+Alınan kararlar: Oyununun tasarımının low poly yapılmasına karar verilmiştir. Ana menü ve 1. sahne taslağı yapılmış ve geliştirilecektir
 - Review katılımcıları : Merve Tansoy , Muhammed Ali Tural , Mehmet Yavuz Marif , Aygül Acar
+# Sprint Retrospective
+- Roller düzenlenmiş ve iş bölümü yapılmıştır.
+- Diğer sprinte daha yoğun tempoda olunmasına karar verildi
+
 
 
