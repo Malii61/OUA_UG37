@@ -432,6 +432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3f9d0644cdc59947a9c0db30610bcf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomNameIF: {fileID: 10440252}
   publicButton: {fileID: 1472217487}
   privateButton: {fileID: 397350895}
 --- !u!114 &77524134

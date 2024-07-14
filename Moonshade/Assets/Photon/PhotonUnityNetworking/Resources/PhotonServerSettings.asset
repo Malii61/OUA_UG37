@@ -46,6 +46,8 @@ MonoBehaviour:
   - SetFaceTexturePunRpc
   - SetPickedPunRpc
   - TakeDamagePunRpc
+  - OnPickedPunRpc
+  - FearRPC
   DisableAutoOpenWizard: 1
   ShowSettings: 1
-  DevRegionSetOnce: 0
+  DevRegionSetOnce: 1

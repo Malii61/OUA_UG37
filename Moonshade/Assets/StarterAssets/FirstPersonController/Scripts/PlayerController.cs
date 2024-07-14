@@ -206,6 +206,15 @@ namespace StarterAssets
             ray.origin = cam.transform.position;
             if (Physics.Raycast(ray, out RaycastHit raycastHit, INTERACT_ALTERNATE_DISTANCE))
             {
+                if (raycastHit.transform.TryGetComponent(out EnemyController enemy))
+                {
+                    var item = ItemManager.LocalInstance.GetCurrentItem();
+                    if (item != null && item.itemId == ItemId.Flashlight)
+                    {
+                        enemy.Fear(transform.position);
+                    }
+                }
+
                 if (raycastHit.transform.TryGetComponent(out I_Interactable interactableObj))
                 {
                     // interactable object has found
