@@ -1,4 +1,7 @@
-# Takım & Oyun İsmi
+# Takım İsmi
+**U37 Unity**
+
+# Oyun İsmi
 **MOONSHADE**
 
 # Takım Üyeleri
@@ -60,5 +63,32 @@ Alınan kararlar: Oyununun tasarımının low poly yapılmasına karar verilmiş
 - Roller düzenlenmiş ve iş bölümü yapılmıştır.
 - Diğer sprinte daha yoğun tempoda olunmasına karar verildi
 
+# SPRİNT 2
+- Sprint için tamamlanması tahmin edilen puan: 80 Puan
+- Daily Scrum: Toplantılar discord üzerinden yapılmaya devam edilmiştir.
+- Toplantı Görselleri:[Daily Scrum](https://imgur.com/a/Div1to8)
+  
+- Sprint 2 board Update Görselleri
+![Ekran Görüntüsü (8)](https://github.com/user-attachments/assets/820d9043-e32e-421c-8e96-657bbbaada08)
+![Ekran Görüntüsü (9)](https://github.com/user-attachments/assets/2f3ca6ff-9da4-4fcd-a750-e60972b22707)
+![Ekran Görüntüsü (11)](https://github.com/user-attachments/assets/2151e28e-a3f8-4c77-a9ad-14d17728ccd0)
+![Ekran Görüntüsü (12)](https://github.com/user-attachments/assets/b1a211b7-a987-47ed-b730-6938b349a971)
+![Ekran Görüntüsü (13)](https://github.com/user-attachments/assets/ce0e8801-0c0a-4154-a058-f9fa0fa969f5)
+![Ekran Görüntüsü (14)](https://github.com/user-attachments/assets/752a041d-179e-40c6-a4ae-5f2dc1b9dad6)
+![sprint 2 board update](https://github.com/user-attachments/assets/d729a1bc-9203-4c4c-a1fe-0406a8ba82e2)
+
+- Ürün Durumu
+![Ekran Görüntüsü (2)](https://github.com/user-attachments/assets/10ed2dc0-88e5-4fdb-a47f-bd18bf576e20)
+![Ekran Görüntüsü (5)](https://github.com/user-attachments/assets/650b8d01-b7a4-432a-a791-0f4dc2d48fd9)
+
+# Sprint Review
+Alınan kararlar:
+- 1.Sahnenin düzenlenilmesinin karar verilmiş ve oynayışa uygun şekilde düzenlenmiştir.
+- Sahnenin ışıklandırılması yetersiz bulunmuş bunun üzerine ekstra çalışılmasına karar verilmiştir.
+- Review katılımcıları : Merve Tansoy , Muhammed Ali Tural , Mehmet Yavuz Marif , Aygül Acar
+# Sprint Retrospective
+- Roller güncellenmiştir.
+- 
+- Son sahneye başlanmıştır.
 
 
