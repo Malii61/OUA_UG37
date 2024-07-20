@@ -67,7 +67,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     public void StartGame()
     {
-        Loader.LoadNetwork(Loader.Scene.GameScene);
+        Loader.LoadNetwork(Loader.Scene.Level_1);
     }
 
 }
