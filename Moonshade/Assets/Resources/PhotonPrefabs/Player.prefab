@@ -1165,6 +1165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 0
+  itemSprite: {fileID: 21300000, guid: 631ded3fa3ac9374e825c4c7945f30b4, type: 3}
   itemName: Idle
   itemGameObject: {fileID: 7164911675246426223}
   localPos: {x: 0, y: 0, z: 0}
