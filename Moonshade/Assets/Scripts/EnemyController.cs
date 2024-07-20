@@ -161,6 +161,7 @@ public class EnemyController : MonoBehaviour
         {
             newPos = FindRandomPos();
         } while (Vector3.Distance(newPos, transform.position) > Vector3.Distance(newPos, fearedFrom));
+
         Debug.Log("fear: " + newPos);
         target = null;
         isFeared = true;
@@ -170,7 +171,7 @@ public class EnemyController : MonoBehaviour
 
     public void Patroling(Vector3 pos = default)
     {
-        if (aiPath.reachedDestination && aiDestinationSetter.isFakeTargeted)
+        if (aiPath.reachedEndOfPath && aiDestinationSetter.isFakeTargeted)
         {
             // fake targete erisildi yeni bir patrolling pozisyonu bul
             isPatrolling = false;
@@ -187,14 +188,14 @@ public class EnemyController : MonoBehaviour
     {
         Vector3 fakePos;
         float minRadius = 5f;
-        float maxRadius = 10f;
+        float maxRadius = 12f;
         do
         {
             fakePos = UtilClass.GetRandomPointInArea(transform.position, minRadius, maxRadius);
             minRadius -= 0.1f;
             maxRadius += 0.1f;
-        } while (Physics.Raycast(new Vector3(fakePos.x, 15, fakePos.z), -transform.up, 20f,
-                     LayerMask.GetMask("Environment")));
+        } while (Physics.Raycast(new Vector3(fakePos.x, 15, fakePos.z), -transform.up, out RaycastHit hit, 40f,
+                     LayerMask.GetMask("Environment")) && PathfinderHelper.Instance.IsPositionInTheMap(fakePos));
 
         return fakePos;
     }

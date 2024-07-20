@@ -8,6 +8,7 @@ public enum ItemId
 public abstract class Item : MonoBehaviour
 {
     public ItemId itemId;
+    public Sprite itemSprite;
     public string itemName;
     public GameObject itemGameObject;
     public Vector3 localPos = Vector3.zero;

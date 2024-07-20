@@ -163,7 +163,7 @@ namespace StarterAssets
         private void SceneManager_activeSceneChanged(Scene arg0, Scene arg1)
         {
             //currentTexture = new Texture2D(2, 2);
-            if (arg1.name == Loader.Scene.GameScene.ToString())
+            if (arg1.name == Loader.Scene.Level_1.ToString())
             {
                 StartCoroutine(PhotonLevelLoaderChecker());
             }

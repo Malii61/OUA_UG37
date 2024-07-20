@@ -22,11 +22,13 @@ public class ItemManager : MonoBehaviourPunCallbacks
         if (PV.IsMine)
             LocalInstance = this;
     }
+
     void Start()
     {
         if (PV.IsMine)
             EquipItem(0);
     }
+
     private void Update()
     {
         SelectItem();
@@ -35,14 +37,16 @@ public class ItemManager : MonoBehaviourPunCallbacks
 
     private void RotateItem()
     {
-        // eðer objeye çok yakýnsak rotate ederken obje yamuluyor. Bu sorunun çözümü için eðer objeye çok yakýnsak return diyoruz.
+        // eï¿½er objeye ï¿½ok yakï¿½nsak rotate ederken obje yamuluyor. Bu sorunun ï¿½ï¿½zï¿½mï¿½ iï¿½in eï¿½er objeye ï¿½ok yakï¿½nsak return diyoruz.
         float distance = Vector3.Distance(aimPoint.position, items[itemIndex].itemGameObject.transform.position);
         if (distance < 0.6f)
             return;
         Vector3 targetDirection = aimPoint.position - items[itemIndex].itemGameObject.transform.position;
-        // objenin targeta doðru dönmesi
+        // objenin targeta doï¿½ru dï¿½nmesi
         Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
-        items[itemIndex].itemGameObject.transform.rotation = Quaternion.Slerp(items[itemIndex].itemGameObject.transform.rotation, targetRotation * Quaternion.Euler(items[itemIndex].rotOffset), 10 * Time.deltaTime);
+        items[itemIndex].itemGameObject.transform.rotation = Quaternion.Slerp(
+            items[itemIndex].itemGameObject.transform.rotation,
+            targetRotation * Quaternion.Euler(items[itemIndex].rotOffset), 10 * Time.deltaTime);
     }
 
     public void AddItem(Item newItem)
@@ -59,6 +63,7 @@ public class ItemManager : MonoBehaviourPunCallbacks
             PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
         }
     }
+
     public void RemoveItem(Item item)
     {
         if (items[itemIndex] == item)
@@ -70,8 +75,10 @@ public class ItemManager : MonoBehaviourPunCallbacks
             hash.Add("deleteItem", item.name);
             PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
         }
+
         items.Remove(item);
     }
+
     void SelectItem()
     {
         if (EventSystem.current.currentSelectedGameObject)
@@ -106,8 +113,8 @@ public class ItemManager : MonoBehaviourPunCallbacks
                 EquipItem(itemIndex - 1);
             }
         }
-
     }
+
     void EquipItem(int _index)
     {
         if (_index == previousItemIndex)
@@ -125,7 +132,8 @@ public class ItemManager : MonoBehaviourPunCallbacks
         }
 
         previousItemIndex = itemIndex;
-
+        if (ItemVisualUI.Instance != null)
+            ItemVisualUI.Instance.UpdateVisual(items[itemIndex]);
         if (PV.IsMine)
         {
             Hashtable hash = new Hashtable();
@@ -133,24 +141,28 @@ public class ItemManager : MonoBehaviourPunCallbacks
             PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
         }
     }
+
     public Item GetCurrentItem()
     {
         if (itemIndex >= items.Count)
         {
             itemIndex = items.Count - 1;
         }
+
         return items[itemIndex];
     }
+
     public bool DoesThePlayerHaveThisItem(Item _item)
     {
-        foreach(Item item in items)
+        foreach (Item item in items)
         {
             if (item.itemName == _item.itemName)
                 return true;
         }
-        return false;
 
+        return false;
     }
+
     public override void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)
     {
         if (changedProps.ContainsKey("newItem") && !PV.IsMine && targetPlayer == PV.Owner)
@@ -163,6 +175,7 @@ public class ItemManager : MonoBehaviourPunCallbacks
                 }
             }
         }
+
         if (changedProps.ContainsKey("deleteItem") && !PV.IsMine && targetPlayer == PV.Owner)
         {
             foreach (Item item in FindObjectsOfType<Item>())
@@ -173,6 +186,7 @@ public class ItemManager : MonoBehaviourPunCallbacks
                 }
             }
         }
+
         if (changedProps.ContainsKey("itemIndex") && !PV.IsMine && targetPlayer == PV.Owner)
         {
             int index = (int)changedProps["itemIndex"];
