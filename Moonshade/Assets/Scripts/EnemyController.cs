@@ -1,3 +1,4 @@
+using System.Collections;
 using Pathfinding;
 using Photon.Pun;
 using Photon.Realtime;
@@ -28,6 +29,8 @@ public class EnemyController : MonoBehaviour
     private float fearTimer;
     private float fearTimerMax = 4f;
     private PhotonView PV;
+    private Coroutine slowCoroutine;
+    private float lastRespeedAmount;
 
     private void Awake()
     {
@@ -131,6 +134,26 @@ public class EnemyController : MonoBehaviour
         attackTimer += Time.fixedDeltaTime;
     }
 
+    public void SlowEnemy(float percentage, float duration)
+    {
+        if (slowCoroutine != null)
+        {
+            StopCoroutine(slowCoroutine);
+            aiPath.maxSpeed += lastRespeedAmount;
+        }
+        float amount = aiPath.maxSpeed * percentage / 100f;
+        aiPath.maxSpeed -= amount;
+
+        slowCoroutine = StartCoroutine(AfterSlowedEnemy(duration, amount));
+    }
+
+    private IEnumerator AfterSlowedEnemy(float duration, float speedAmount)
+    {
+        lastRespeedAmount = speedAmount;
+        yield return new WaitForSeconds(duration);
+        aiPath.maxSpeed += speedAmount;
+        slowCoroutine = null;
+    }
     private bool IsTargetHided(Transform target)
     {
         Player player = target.GetComponent<PhotonView>().Owner;
