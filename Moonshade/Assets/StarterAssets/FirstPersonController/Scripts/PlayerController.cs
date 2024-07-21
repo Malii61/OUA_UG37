@@ -200,6 +200,11 @@ namespace StarterAssets
             HandleInteractions();
         }
 
+        public void JumpManually(float force)
+        {
+            _verticalVelocity = Mathf.Sqrt(force);
+        }
+
         private void HandleInteractions()
         {
             Ray ray = cam.GetComponent<Camera>().ViewportPointToRay(new Vector3(0.5f, 0.5f));
