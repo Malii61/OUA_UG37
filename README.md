@@ -98,7 +98,7 @@ Alınan kararlar:
 # Sprint Retrospective
 - Roller güncellenmiştir.
 - Online sistem test edilmiş ve başarıyla sonuçlanmıştır.
+- 2.Sahnenin taslağı bitmiş modellerin yerleştirilmesi 3.Sprintte kalmıştır.
 - Son sahneye başlanmıştır.
-- Son sprint için çalışmalara başlanmıştır.
 
 
