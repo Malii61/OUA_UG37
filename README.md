@@ -89,6 +89,9 @@ Alınan kararlar: Oyununun tasarımının low poly yapılmasına karar verilmiş
 ![Moonshadecreatearoommenu](https://github.com/user-attachments/assets/88576845-79f1-430d-9102-c555610fcf44)
 ![moonshadeloading](https://github.com/user-attachments/assets/b6bd839e-4399-4794-9ebd-5067aed22eeb)
 ![moonshadefindroommenu](https://github.com/user-attachments/assets/d0514c2b-baf4-4c9d-9f5e-6ddec905a39f)
+- Test
+![Ekran_Goruntusu_126](https://github.com/user-attachments/assets/20805a7a-f843-40b1-a08a-cdfa73ef54e9)
+
 
 # Sprint Review
 Alınan kararlar:
