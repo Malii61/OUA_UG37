@@ -12,6 +12,12 @@
 | Mehmet Yavuz Marifet| UI/UX Designer |
 | Aygül Acar| Lighting Artist |
 
+# Oyunun Hikayesi
+
+**Bir zamanlar huzurlu olan Moonshade köyü, karanlık bir lanetin etkisi altına girdi. Yaratıklar, köydeki herkesi uyuttu, ancak siz ve üç arkadaşınız uyanık kaldınız. Elinizdeki fenerler, karanlıktaki sembolleri açığa çıkararak sizi doğru yolda ilerlemeniz için rehberlik ediyor. Önce, köyden kaçmalı ve yaratıklardan saklanarak güvenli bir yere ulaşmalısınız. Ardından, tehlikelerle dolu bir labirentte ritüeli bozmak için gerekli malzemeleri bulmalısınız. Son olarak, ritüelin bozulacağı yere giderek bu malzemeleri kullanıp laneti sona erdirmelisiniz. Bu süreçte, yaratıklardan ve hayaletlerden saklanarak strateji geliştirmeniz gerekecek. Moonshade, korku ve strateji dolu bir maceraya sizi davet ediyor. Karanlık köyde ve labirentte hayatta kalmak ve köyünüzü kurtarmak sizin göreviniz.**
+
+
+
 # Oyun Açıklaması
 
 **Moonshade sizi, yaratıkların köyünüzü lanetleyip herkesi uyuttuğu bir dünyaya götürüyor. Sadece siz ve üç arkadaşınız uyanık kaldınız. Fenerlerinizin özel aydınlatması, sembolleri ve gizli yolları ortaya çıkararak yolunuzu bulmanızda yardımcı oluyor .Fenerlerin rehberliğinde sembolleri takip ederek ritüeli bozacak malzemeleri bulun. Yaratıklardan saklanın, tehlikeli labirenti keşfedin, hayaletlerden kaçın ve sonunda ritüeli bozarak deliren yaratıklardan kurtulun. Moonshade, gizemli ve tehlikeli bir dünyada geçen heyecan verici bir macera ve strateji oyunudur!**
@@ -80,6 +86,9 @@ Alınan kararlar: Oyununun tasarımının low poly yapılmasına karar verilmiş
 - Ürün Durumu
 ![Ekran Görüntüsü (2)](https://github.com/user-attachments/assets/10ed2dc0-88e5-4fdb-a47f-bd18bf576e20)
 ![Ekran Görüntüsü (5)](https://github.com/user-attachments/assets/650b8d01-b7a4-432a-a791-0f4dc2d48fd9)
+![Moonshadecreatearoommenu](https://github.com/user-attachments/assets/88576845-79f1-430d-9102-c555610fcf44)
+![moonshadeloading](https://github.com/user-attachments/assets/b6bd839e-4399-4794-9ebd-5067aed22eeb)
+![moonshadefindroommenu](https://github.com/user-attachments/assets/d0514c2b-baf4-4c9d-9f5e-6ddec905a39f)
 
 # Sprint Review
 Alınan kararlar:
