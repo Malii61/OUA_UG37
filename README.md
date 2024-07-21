@@ -20,7 +20,7 @@
 
 # Oyun Açıklaması
 
-**Moonshade sizi, yaratıkların köyünüzü lanetleyip herkesi uyuttuğu bir dünyaya götürüyor. Sadece siz ve üç arkadaşınız uyanık kaldınız. Fenerlerinizin özel aydınlatması, sembolleri ve gizli yolları ortaya çıkararak yolunuzu bulmanızda yardımcı oluyor .Fenerlerin rehberliğinde sembolleri takip ederek ritüeli bozacak malzemeleri bulun. Yaratıklardan saklanın, tehlikeli labirenti keşfedin, hayaletlerden kaçın ve sonunda ritüeli bozarak deliren yaratıklardan kurtulun. Moonshade, gizemli ve tehlikeli bir dünyada geçen heyecan verici bir macera ve strateji oyunudur!**
+**Moonshade, 1-4 oyuncunun birlikte oynayabileceği bir macera ve strateji oyunudur. Fenerlerinizin özel aydınlatmasıyla karanlıkta sembolleri açığa çıkararak yolunuzu bulun. Köyden kaçın, labirentte ritüeli bozmak için gerekli malzemeleri toplayın ve laneti sona erdirin. Yaratıklardan saklanarak hayatta kalmak ve köyünüzü kurtarmak için birlikte çalışın.**
 
 # Oyun Özellikleri
 
