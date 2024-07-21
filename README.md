@@ -97,7 +97,8 @@ Alınan kararlar:
 - Review katılımcıları : Merve Tansoy , Muhammed Ali Tural , Mehmet Yavuz Marif , Aygül Acar
 # Sprint Retrospective
 - Roller güncellenmiştir.
-- 
+- Online sistem test edilmiş ve başarıyla sonuçlanmıştır.
 - Son sahneye başlanmıştır.
+- Son sprint için çalışmalara başlanmıştır.
 
 
