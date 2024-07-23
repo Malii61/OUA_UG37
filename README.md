@@ -72,6 +72,7 @@ Alınan kararlar: Oyununun tasarımının low poly yapılmasına karar verilmiş
 # SPRİNT 2
 - **Sprint notları:** Roller güncellenmiş, UI online sisteme uygun düzenlenmiştir.Online Sistem test edilmiş ve Sahne oynanışa uygun düzenlenilecektir.
 - **Sprint için tamamlanması tahmin edilen puan:** 80 Puan
+- - **Puan tamamlama mantığı:** Toplamda 200 puanlık backlog bulunmaktadır. 1.Sprint 60 puan ile tamamlanmıştır. 2. Sprintte daha yoğun tempoda devam edilmeye karar verildiği için bu sprintte 80 puan ile devam edilmesine karar verildi.
 - **Daily Scrum:** Toplantılar discord üzerinden yapılmaya devam edilmiştir.
 - **Toplantı Görselleri:**[Daily Scrum](https://imgur.com/a/Div1to8)
   
