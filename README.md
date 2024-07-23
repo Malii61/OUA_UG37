@@ -40,16 +40,16 @@
 
 # SPRİNT 1
 
-- Sprint notları : Proje için planlama ve görev dağılımları yapıldı, görevlerin yönetimi için trello kullanımına karar verildi.
-- Sprint için tamamlanması tahmin edilen puan: 60 Puan 
-- Puan tamamlama mantığı: Toplamda 200 puanlık backlog bulunmaktadır.Üç sprintte bölündüğünde ilk Sprint için 60 puan ile başlamaya karar verildi.
-- Daily Scrum : Daily Scrum toplantıları discord üzerinden yapılmıştır
-- Toplantı görselleri:
+- **Sprint notları :** Proje için planlama ve görev dağılımları yapıldı, görevlerin yönetimi için trello kullanımına karar verildi.
+- **Sprint için tamamlanması tahmin edilen puan:** 60 Puan 
+- **Puan tamamlama mantığı:** Toplamda 200 puanlık backlog bulunmaktadır.Üç sprintte bölündüğünde ilk Sprint için 60 puan ile başlamaya karar verildi.
+- **Daily Scrum :** Daily Scrum toplantıları discord üzerinden yapılmıştır
+- **Toplantı görselleri:**
 
 ![1](https://github.com/Malii61/OUA_UG37/assets/157800967/4fbebb16-b04e-4494-a42b-dfff366b8d4b)
 ![2](https://github.com/Malii61/OUA_UG37/assets/157800967/8e95470e-2267-4eb8-a097-0490e1f8b1f8)
 
-- Sprint board update görselleri
+- **Sprint board update görselleri**
   
 ![3](https://github.com/Malii61/OUA_UG37/assets/157800967/62dc637d-a1ec-48a9-bba4-68599e5eb283)
 ![4](https://github.com/Malii61/OUA_UG37/assets/157800967/dead4ea1-12fb-4b6d-b053-0b4c6589257e)
@@ -58,7 +58,7 @@
 ![7](https://github.com/Malii61/OUA_UG37/assets/157800967/38ed1242-7629-42f5-804e-108da6fd0876)
 ![sprint 1 board](https://github.com/Malii61/OUA_UG37/assets/157800967/570b7e8c-5555-48a4-9cea-648b98880c7e)
 
-- Ürüm Durumu :
+- **Ürüm Durumu :**
 ![8](https://github.com/Malii61/OUA_UG37/assets/157800967/8920d016-ae71-40cb-b978-617f79752d06)
 ![9](https://github.com/Malii61/OUA_UG37/assets/157800967/ee219236-3ca4-4f17-9705-33324ba9404e)
 
@@ -70,10 +70,10 @@ Alınan kararlar: Oyununun tasarımının low poly yapılmasına karar verilmiş
 - Diğer sprinte daha yoğun tempoda olunmasına karar verildi
 
 # SPRİNT 2
-- Sprint notları: Roller güncellenmiş, UI online sisteme uygun düzenlenmiştir.Online Sistem test edilmiş ve Sahne oynanışa uygun düzenlenilecektir.
-- Sprint için tamamlanması tahmin edilen puan: 80 Puan
-- Daily Scrum: Toplantılar discord üzerinden yapılmaya devam edilmiştir.
-- Toplantı Görselleri:[Daily Scrum](https://imgur.com/a/Div1to8)
+- **Sprint notları:** Roller güncellenmiş, UI online sisteme uygun düzenlenmiştir.Online Sistem test edilmiş ve Sahne oynanışa uygun düzenlenilecektir.
+- **Sprint için tamamlanması tahmin edilen puan:** 80 Puan
+- **Daily Scrum:** Toplantılar discord üzerinden yapılmaya devam edilmiştir.
+- **Toplantı Görselleri:**[Daily Scrum](https://imgur.com/a/Div1to8)
   
 - Sprint 2 board Update Görselleri
 ![Ekran Görüntüsü (8)](https://github.com/user-attachments/assets/820d9043-e32e-421c-8e96-657bbbaada08)
