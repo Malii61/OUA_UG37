@@ -1,7 +1,6 @@
 using System;
 using Photon.Pun;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class Flashlight : Item, I_Interactable
 {
