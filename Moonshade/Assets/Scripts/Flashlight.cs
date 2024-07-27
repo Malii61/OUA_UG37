@@ -1,16 +1,38 @@
+using System;
 using Photon.Pun;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Flashlight : Item, I_Interactable
 {
     private bool isPicked;
     [SerializeField] private Transform spotLight;
+     [SerializeField] private FlashlightTrigger flashlightTrigger;
     private PhotonView PV;
+    private bool isMine;
+    private bool checkBool;
 
     private void Awake()
     {
         spotLight.gameObject.SetActive(false);
+        flashlightTrigger.SetColliderState(false);
         PV = GetComponent<PhotonView>();
+    }
+
+    private void Update()
+    {
+        if (!isMine) return;
+        
+        if (checkBool && ItemManager.LocalInstance.GetCurrentItem() == this)
+        {
+            flashlightTrigger.SetColliderState(true);
+            checkBool = false;
+        }
+        else if(!checkBool && ItemManager.LocalInstance.GetCurrentItem() != this)
+        {
+            flashlightTrigger.SetColliderState(false);
+            checkBool = true;
+        }
     }
 
     public void Interact(bool isPlayer = true)
@@ -19,6 +41,8 @@ public class Flashlight : Item, I_Interactable
             return;
         ItemManager.LocalInstance.AddItem(this);
         InteractionText.Instance.SetText("You got a " + itemName);
+        flashlightTrigger.enabled = true;
+        isMine = true;
         PV.RPC(nameof(OnPickedPunRpc), RpcTarget.All);
     }
 

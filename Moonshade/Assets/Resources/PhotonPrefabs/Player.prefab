@@ -1268,7 +1268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aimColliderLayerMask:
     serializedVersion: 2
-    m_Bits: 465
+    m_Bits: 321
   cam: {fileID: 9185980248036585137}
 --- !u!1 &7891164913500433412
 GameObject:
