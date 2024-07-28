@@ -3,7 +3,8 @@ using UnityEngine;
 public enum ItemId
 {
     Idle,
-    Flashlight
+    Flashlight,
+    Potion,
 }
 public abstract class Item : MonoBehaviour
 {

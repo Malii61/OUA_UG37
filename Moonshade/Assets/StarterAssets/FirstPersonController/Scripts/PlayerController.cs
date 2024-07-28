@@ -339,7 +339,6 @@ namespace StarterAssets
                 _speed = targetSpeed;
             }
 
-            Debug.Log("speed: " + _speed);
             animator.SetFloat("Speed", _speed, 0.05f, Time.deltaTime);
             // set the player energy
             if (_speed > 0.1f && _input.sprint && currentEnergy > 0 && canRun)

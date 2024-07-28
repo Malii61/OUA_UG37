@@ -31,6 +31,7 @@ public class ItemManager : MonoBehaviourPunCallbacks
 
     private void Update()
     {
+        if (!PV.IsMine) return;
         SelectItem();
         RotateItem();
     }
@@ -74,6 +75,7 @@ public class ItemManager : MonoBehaviourPunCallbacks
             Hashtable hash = new Hashtable();
             hash.Add("deleteItem", item.name);
             PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
+            item.gameObject.SetActive(false);
         }
 
         items.Remove(item);
@@ -132,10 +134,11 @@ public class ItemManager : MonoBehaviourPunCallbacks
         }
 
         previousItemIndex = itemIndex;
-        if (ItemVisualUI.Instance != null)
-            ItemVisualUI.Instance.UpdateVisual(items[itemIndex]);
+
         if (PV.IsMine)
         {
+            if (ItemVisualUI.Instance != null)
+                ItemVisualUI.Instance.UpdateVisual(items[itemIndex]);
             Hashtable hash = new Hashtable();
             hash.Add("itemIndex", itemIndex);
             PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
@@ -183,6 +186,7 @@ public class ItemManager : MonoBehaviourPunCallbacks
                 if (item.gameObject.name == (string)changedProps["newItem"])
                 {
                     RemoveItem(item);
+                    item.gameObject.SetActive(false);
                 }
             }
         }
