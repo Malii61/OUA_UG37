@@ -66,7 +66,7 @@ public class FinishTrigger : MonoBehaviourPunCallbacks
 
     private void GoOtherScene()
     {
-        if (sceneToLoad != default)
+        if (sceneToLoad != Loader.Scene.GameScene)
         {
             Loader.LoadNetwork(sceneToLoad);
         }

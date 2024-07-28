@@ -6,7 +6,7 @@ public class Flashlight : Item, I_Interactable
 {
     private bool isPicked;
     [SerializeField] private Transform spotLight;
-     [SerializeField] private FlashlightTrigger flashlightTrigger;
+    [SerializeField] private FlashlightTrigger flashlightTrigger;
     private PhotonView PV;
     private bool isMine;
     private bool checkBool;
@@ -16,18 +16,19 @@ public class Flashlight : Item, I_Interactable
         spotLight.gameObject.SetActive(false);
         flashlightTrigger.SetColliderState(false);
         PV = GetComponent<PhotonView>();
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Update()
     {
         if (!isMine) return;
-        
+
         if (checkBool && ItemManager.LocalInstance.GetCurrentItem() == this)
         {
             flashlightTrigger.SetColliderState(true);
             checkBool = false;
         }
-        else if(!checkBool && ItemManager.LocalInstance.GetCurrentItem() != this)
+        else if (!checkBool && ItemManager.LocalInstance.GetCurrentItem() != this)
         {
             flashlightTrigger.SetColliderState(false);
             checkBool = true;
@@ -50,6 +51,7 @@ public class Flashlight : Item, I_Interactable
     {
         isPicked = true;
         spotLight.gameObject.SetActive(true);
+        DontDestroyOnLoad(gameObject);
     }
 
     public void OnFaced()

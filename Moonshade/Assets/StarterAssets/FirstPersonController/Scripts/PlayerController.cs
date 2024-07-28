@@ -138,6 +138,12 @@ namespace StarterAssets
             DontDestroyOnLoad(gameObject);
         }
 
+        public void SetPosition(Vector3 pos)
+        {
+            _controller.enabled = false;
+            transform.position = pos;
+            _controller.enabled = true;
+        }
         private void Start()
         {
             _controller = GetComponent<CharacterController>();

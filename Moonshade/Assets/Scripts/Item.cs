@@ -4,7 +4,8 @@ public enum ItemId
 {
     Idle,
     Flashlight,
-    Potion,
+    RedPotion,
+    BluePotion,
 }
 public abstract class Item : MonoBehaviour
 {

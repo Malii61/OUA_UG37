@@ -7,7 +7,7 @@ public class Boiler : MonoBehaviour, I_Interactable
 {
     public void OnFaced()
     {
-        if (ItemManager.LocalInstance.GetCurrentItem().itemId == ItemId.Potion)
+        if (ItemManager.LocalInstance.GetCurrentItem().itemId is ItemId.RedPotion or ItemId.BluePotion)
         {
             InteractionText.Instance.SetText("Throw potion");
         }
@@ -15,7 +15,7 @@ public class Boiler : MonoBehaviour, I_Interactable
 
     public void Interact(bool isPlayer = true)
     {
-        if (ItemManager.LocalInstance.GetCurrentItem().itemId == ItemId.Potion)
+        if (ItemManager.LocalInstance.GetCurrentItem().itemId is ItemId.RedPotion or ItemId.BluePotion) 
         {
             Item item = ItemManager.LocalInstance.GetCurrentItem();
             item.Use();

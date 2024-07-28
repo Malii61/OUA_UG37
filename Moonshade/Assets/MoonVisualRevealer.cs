@@ -21,7 +21,8 @@ public class MoonVisualRevealer : MonoBehaviour, I_Interactable
 
     public void OnFaced()
     {
-        PV.RPC(nameof(SetTargetAlphaPunRpc), RpcTarget.All, 1);
+        if (ItemManager.LocalInstance.GetCurrentItem().itemId == ItemId.Flashlight)
+            PV.RPC(nameof(SetTargetAlphaPunRpc), RpcTarget.All, 1);
     }
 
     public void OnInteractEnded()

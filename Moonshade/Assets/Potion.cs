@@ -10,7 +10,6 @@ public class Potion : Item, I_Interactable
     private void Awake()
     {
         PV = GetComponent<PhotonView>();
-        DontDestroyOnLoad(gameObject);
     }
 
     public override void Use()
@@ -31,6 +30,8 @@ public class Potion : Item, I_Interactable
     private void OnPickedPunRpc()
     {
         isPicked = true;
+        Debug.Log("dontdestroy this");
+        DontDestroyOnLoad(gameObject);
     }
 
     public void OnFaced()
