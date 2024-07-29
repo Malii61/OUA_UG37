@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - Agent
+  - Potion
+  - Wall
   layers:
   - Default
   - TransparentFX
