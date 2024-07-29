@@ -35,11 +35,12 @@ public class AgentController : Agent
 
     private void CreatePotion()
     {
-
+        /*
         if(spawnedPotionList.Count !=0)
         {
             RemovePotion(spawnedPotionList);
         }
+        */
         for (int i=0;i<potionCount;i++)
         {
             GameObject newPotion=Instantiate(food);
@@ -50,7 +51,7 @@ public class AgentController : Agent
 
         }
     }
-
+      /*  
     private void RemovePotion(List<GameObject> DeletedGameObjectList)
     {
         foreach (GameObject item in DeletedGameObjectList)
@@ -59,7 +60,7 @@ public class AgentController : Agent
         }
         DeletedGameObjectList.Clear();
     }
-
+    */
     public override void CollectObservations(VectorSensor sensor)
     {
        sensor.AddObservation(transform.localPosition);
@@ -93,22 +94,17 @@ public class AgentController : Agent
  { 
     if(nesne.gameObject.tag =="Potion")
     {
-        spawnedPotionList.Remove(nesne.gameObject);
+        
         Destroy(nesne.gameObject);
         AddReward(5f);
-        if(spawnedPotionList.Count==0)
-        {
-            RemovePotion(spawnedPotionList);
-            AddReward(5f);
-            EndEpisode();
-        }
+       
         
     }
     if (nesne.gameObject.tag == "Wall")
     {
         
         AddReward(-5f);
-        EndEpisode();
+        
     }
  }    
 }

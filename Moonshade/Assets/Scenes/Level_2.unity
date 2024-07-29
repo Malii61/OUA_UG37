@@ -17410,7 +17410,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   hedef: {fileID: 8124079583622792199, guid: 43fe03d8ec47d4946b336c8b02486aa7, type: 3}
-  potionCount: 4
+  potionCount: 8
   food: {fileID: 6919399768484649911, guid: 43fe03d8ec47d4946b336c8b02486aa7, type: 3}
   spawnedPotionList: []
   moveSpeed: 4
@@ -20975,7 +20975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2041647328
 MonoBehaviour:
   m_ObjectHideFlags: 0
