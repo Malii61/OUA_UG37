@@ -31,6 +31,7 @@ public class EnemyController : MonoBehaviour
     private PhotonView PV;
     private Coroutine slowCoroutine;
     private float lastRespeedAmount;
+    private bool killed = false;
 
     private void Awake()
     {
@@ -56,22 +57,7 @@ public class EnemyController : MonoBehaviour
             return;
 
         CheckPlayerAround();
-        CheckDoor();
         // animator.SetFloat("Speed", aiPath.maxSpeed, 0.05f, Time.deltaTime);
-    }
-
-
-    private void CheckDoor()
-    {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, raycastDistance + 1f))
-        {
-            if (hit.transform.TryGetComponent(out Door door))
-            {
-                if (door.isOpenable())
-                    door.Interact(false);
-            }
-        }
     }
 
     private void CheckPlayerAround()
@@ -120,6 +106,9 @@ public class EnemyController : MonoBehaviour
             if (distance <= aiPath.endReachedDistance && attackTimer >= attackSpeed)
             {
                 Debug.Log("HIT");
+                if (!killed)
+                    target.GetComponent<PlayerController>().KillPlayer();
+                killed = true;
                 int attackTypeValue = Random.Range(0, 3) + 1;
                 // animator.SetInteger("AttackTypeValue", attackTypeValue);
                 attackTimer = 0;
@@ -141,6 +130,7 @@ public class EnemyController : MonoBehaviour
             StopCoroutine(slowCoroutine);
             aiPath.maxSpeed += lastRespeedAmount;
         }
+
         float amount = aiPath.maxSpeed * percentage / 100f;
         aiPath.maxSpeed -= amount;
 
@@ -154,6 +144,7 @@ public class EnemyController : MonoBehaviour
         aiPath.maxSpeed += speedAmount;
         slowCoroutine = null;
     }
+
     private bool IsTargetHided(Transform target)
     {
         Player player = target.GetComponent<PhotonView>().Owner;

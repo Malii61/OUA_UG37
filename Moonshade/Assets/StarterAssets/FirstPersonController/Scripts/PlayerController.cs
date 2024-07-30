@@ -144,6 +144,7 @@ namespace StarterAssets
             transform.position = pos;
             _controller.enabled = true;
         }
+
         private void Start()
         {
             _controller = GetComponent<CharacterController>();
@@ -482,6 +483,24 @@ namespace StarterAssets
         {
             // hitFX example
             // Instantiate(m_hitEffect, hitPosition, Quaternion.identity);
+        }
+
+        public void KillPlayer()
+        {
+            Debug.Log("died");
+            PV.RPC(nameof(PlayerDied), RpcTarget.All, GetComponent<PhotonView>().Owner.NickName);
+            Invoke(nameof(ReloadScene), 1f);
+        }
+
+        [PunRPC]
+        private void PlayerDied(string name)
+        {
+            InteractionText.Instance.SetText(name + " got caught. Starting again..");
+        }
+
+        private void ReloadScene()
+        {
+            Loader.LoadNetwork(Loader.Scene.Level_1);
         }
     }
 }

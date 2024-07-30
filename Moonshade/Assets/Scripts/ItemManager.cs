@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class ItemManager : MonoBehaviourPunCallbacks
@@ -27,6 +28,20 @@ public class ItemManager : MonoBehaviourPunCallbacks
     {
         if (PV.IsMine)
             EquipItem(0);
+        SceneManager.activeSceneChanged += OnSceneChanged;
+    }
+
+    private void OnSceneChanged(Scene arg0, Scene arg1)
+    {
+        if (arg1.name == Loader.Scene.Level_1.ToString())
+        {
+            if (items.Count > 1)
+                for (int i = 1; i < items.Count; i++)
+                {
+                    var item = items[i];
+                    RemoveItem(item);
+                }
+        }
     }
 
     private void Update()
