@@ -393,6 +393,8 @@ GameObject:
   - component: {fileID: 4126794448274075449}
   - component: {fileID: 5194064384175325003}
   - component: {fileID: 3214665395917302888}
+  - component: {fileID: 2608919304941038198}
+  - component: {fileID: 1758412645661956982}
   m_Layer: 0
   m_Name: Agent
   m_TagString: Agent
@@ -488,7 +490,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: b736ae3f27dbeab4f982ed7e5cabda41, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 26d74fe15a08347499c1a943ae93612f, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 2
   m_BehaviorName: Slime Agent
@@ -496,6 +498,43 @@ MonoBehaviour:
   m_UseChildSensors: 1
   m_UseChildActuators: 1
   m_ObservableAttributeHandling: 0
+--- !u!114 &2608919304941038198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5043565817391131979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63966959348332c41a20fbc927d2645a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
+  hedef: {fileID: 8124079583622792199, guid: 43fe03d8ec47d4946b336c8b02486aa7, type: 3}
+  potionCount: 12
+  food: {fileID: 6919399768484649911, guid: 43fe03d8ec47d4946b336c8b02486aa7, type: 3}
+  spawnedPotionList: []
+  moveSpeed: 4
+  environmentLocation: {fileID: 5680167043479392100, guid: 5f91a82de84461141918152099bcdd4f,
+    type: 3}
+--- !u!114 &1758412645661956982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5043565817391131979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DecisionPeriod: 5
+  TakeActionsBetweenDecisions: 1
 --- !u!1 &5359452298347800074
 GameObject:
   m_ObjectHideFlags: 0
