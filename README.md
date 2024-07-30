@@ -10,7 +10,7 @@
 | Merve Tansoy | Scrum Master / Level Designer|
 | Muhammed Ali Tural | Product Owner /Developer  |
 | Mehmet Yavuz Marifet| UI/UX Designer |
-| Aygül Acar| Lighting Artist |
+| Aygül Acar| Marketing |
 
 # Oyunun Hikayesi
 
@@ -105,5 +105,17 @@ Alınan kararlar:
 - Online sistem test edilmiş ve başarıyla sonuçlanmıştır.
 - 2.Sahnenin taslağı bitmiş modellerin yerleştirilmesi 3.Sprintte kalmıştır.
 - Son sahneye başlanmıştır.
+
+#Sprint 3
+
+- **Sprint notları:**güncellenecek
+- **Sprint için tamamlanması tahmin edilen puan:** 60 Puan
+- **Puan tamamlama mantığı:** Toplamda 200 puanlık backlog bulunmaktadır.
+- **Daily Scrum:** Toplantılar discord üzerinden yapılmaya devam edilmiştir.
+- **Toplantı görselleri:**
+
+- Sprint 3 board update görselleri
+
+- Ürün Durumu
 
 
