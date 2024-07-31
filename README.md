@@ -14,7 +14,7 @@
 
 # Oyunun Hikayesi
 
-**Bir zamanlar huzurlu olan Moonshade köyü, karanlık bir lanetin etkisi altına girdi. Yaratıklar, köydeki herkesi uyuttu, ancak siz ve üç arkadaşınız uyanık kaldınız. Elinizdeki fenerler, karanlıktaki sembolleri açığa çıkararak sizi doğru yolda ilerlemeniz için rehberlik ediyor. Önce, köyden kaçmalı ve yaratıklardan saklanarak güvenli bir yere ulaşmalısınız. Ardından, tehlikelerle dolu bir labirentte ritüeli bozmak için gerekli malzemeleri bulmalısınız. Son olarak, ritüelin bozulacağı yere giderek bu malzemeleri kullanıp laneti sona erdirmelisiniz. Bu süreçte, yaratıklardan ve hayaletlerden saklanarak strateji geliştirmeniz gerekecek. Moonshade, korku ve strateji dolu bir maceraya sizi davet ediyor. Karanlık köyde ve labirentte hayatta kalmak ve köyünüzü kurtarmak sizin göreviniz.**
+**Bir zamanlar huzurlu olan Moonshade köyü, karanlık bir lanetin etkisi altına girdi. Yaratıklar, köydeki herkesi uyuttu, ancak siz ve üç arkadaşınız uyanık kaldınız. Elinizdeki fenerler, karanlıktaki sembolleri açığa çıkararak sizi doğru yolda ilerlemeniz için rehberlik ediyor. Önce, köyden kaçmalı ve yaratıklardan saklanarak güvenli bir yere ulaşmalısınız. Ardından, tehlikelerle dolu bir labirentte ritüeli bozmak için gerekli malzemeleri bulmalısınız. Son olarak, ritüelin bozulacağı yere giderek bu malzemeleri kullanıp laneti sona erdirmelisiniz. Bu süreçte, yaratıklardan  saklanarak strateji geliştirmeniz gerekecek. Moonshade, korku ve strateji dolu bir maceraya sizi davet ediyor. Karanlık köyde ve labirentte hayatta kalmak ve köyünüzü kurtarmak sizin göreviniz.**
 
 
 
@@ -108,13 +108,19 @@ Alınan kararlar:
 
 #Sprint 3
 
-- **Sprint notları:**güncellenecek
+- **Sprint notları:** Oyunda yapılan testler sonucunda bazı özellikler yetişmeyeceği ve bazı özelliklerde sorun yaşanıldığı için çıkarılmasına karar verildi. ML Agent Eğitilmesine karar verildi
 - **Sprint için tamamlanması tahmin edilen puan:** 60 Puan
-- **Puan tamamlama mantığı:** Toplamda 200 puanlık backlog bulunmaktadır.
+- **Puan tamamlama mantığı:** Toplamda 200 puanlık backlog bulunmaktadır. İlk 2 Sprint 140 puan ile tamamlanmıştır. Bazı özellikler çıkarıldığı için 3. Sprint'te 60 puan ile devam edilmeye karar verilmiştir.
 - **Daily Scrum:** Toplantılar discord üzerinden yapılmaya devam edilmiştir.
-- **Toplantı görselleri:**
+- **Toplantı görselleri:**[Daily Scrum](https://imgur.com/a/Gu5Bmsi)
 
 - Sprint 3 board update görselleri
+![Ekran Görüntüsü (171)](https://github.com/user-attachments/assets/051c76c5-20bf-4185-b561-5b58338a0c51)
+![Ekran Görüntüsü (172)](https://github.com/user-attachments/assets/b36cdff5-7ca7-4d6c-800d-5f02718b4edd)
+![Ekran Görüntüsü (173)](https://github.com/user-attachments/assets/80ff94eb-a59f-4927-acaf-2e8f34ee970b)
+![Ekran Görüntüsü (174)](https://github.com/user-attachments/assets/d2cb6f22-4a15-4a42-82c9-ffd86fdfe384)
+![Ekran Görüntüsü (175)](https://github.com/user-attachments/assets/d716a363-3625-46f1-8cd9-aaf5b55a2b0f)
+![Ekran Görüntüsü (177)](https://github.com/user-attachments/assets/2fe83a50-22c2-43fb-b862-75b19c30e0fc)
 
 - Ürün Durumu
 
