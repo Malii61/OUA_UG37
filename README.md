@@ -106,9 +106,11 @@ Alınan kararlar:
 - 2.Sahnenin taslağı bitmiş modellerin yerleştirilmesi 3.Sprintte kalmıştır.
 - Son sahneye başlanmıştır.
 
-#Sprint 3
+# Sprint 3
 
-- **Sprint notları:** Oyunda yapılan testler sonucunda bazı özellikler yetişmeyeceği ve bazı özelliklerde sorun yaşanıldığı için çıkarılmasına karar verildi. ML Agent Eğitilmesine karar verildi
+- **Sprint notları:** Oyunda yapılan testler sonucunda bazı özellikler yetişmeyeceği ve bazı özelliklerde sorun yaşanıldığı için çıkarılmasına karar verildi.
+    * ML Agent Eğitilmesine karar verildi. ML Agent Eğitim Videosu : güncellenecek [MLAgent Eğitim Detayı GİTHUB REPO](https://github.com/mervetansoy/SlimeAgent)
+    * Marketing görevlimizin yaptığı araştırmalar sonucunda oyunumuzu Steam üzerinden yayınlamaya karar verdik. Oyunumuz, 3.99$ fiyatıyla satışa sunulacaktır.
 - **Sprint için tamamlanması tahmin edilen puan:** 60 Puan
 - **Puan tamamlama mantığı:** Toplamda 200 puanlık backlog bulunmaktadır. İlk 2 Sprint 140 puan ile tamamlanmıştır. Bazı özellikler çıkarıldığı için 3. Sprint'te 60 puan ile devam edilmeye karar verilmiştir.
 - **Daily Scrum:** Toplantılar discord üzerinden yapılmaya devam edilmiştir.
@@ -123,5 +125,16 @@ Alınan kararlar:
 ![Ekran Görüntüsü (177)](https://github.com/user-attachments/assets/2fe83a50-22c2-43fb-b862-75b19c30e0fc)
 
 - Ürün Durumu
+![Ekran Görüntüsü (191)](https://github.com/user-attachments/assets/d9d81161-7891-4fe3-a8d7-8ba1442f5778)
+![Ekran Görüntüsü (192)](https://github.com/user-attachments/assets/b460c176-49cb-462e-8d0c-b9d906bb6407)
+![Ekran Görüntüsü (193)](https://github.com/user-attachments/assets/d711bf3b-91c8-46db-9dd9-c9b2eebfea51)
+![7](https://github.com/user-attachments/assets/0a1ac204-182d-40db-9a0b-abd80043d4e1)
+
+# Sprint Review
+- Oyun istenilen şekilde tamamlanmıştır
+- Tamamlanması gereken 200 puanlık backlog puanı tamamlanmıştır.
+
+# Sprint Retrospective
+- Takım içi görev dağılımının gözden geçirilmesine karar verildi
 
 
