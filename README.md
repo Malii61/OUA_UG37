@@ -7,8 +7,8 @@
 # Takım Üyeleri
 | İsim  | Ünvan |
 |:-------:| :-----:|
-| Merve Tansoy | Scrum Master / Level Designer|
-| Muhammed Ali Tural | Product Owner /Developer  |
+| Merve Tansoy | Scrum Master / Level Designer / AI Programmer|
+| Muhammed Ali Tural | Product Owner /Developer |
 | Mehmet Yavuz Marifet| UI/UX Designer |
 | Aygül Acar| Marketing |
 
