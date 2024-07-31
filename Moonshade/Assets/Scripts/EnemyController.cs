@@ -106,9 +106,9 @@ public class EnemyController : MonoBehaviour
             if (distance <= aiPath.endReachedDistance && attackTimer >= attackSpeed)
             {
                 Debug.Log("HIT");
-                if (!killed)
-                    target.GetComponent<PlayerController>().KillPlayer();
-                killed = true;
+                // if (!killed)
+                //     target.GetComponent<PlayerController>().KillPlayer();
+                // killed = true;
                 int attackTypeValue = Random.Range(0, 3) + 1;
                 // animator.SetInteger("AttackTypeValue", attackTypeValue);
                 attackTimer = 0;
