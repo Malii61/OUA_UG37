@@ -111,7 +111,10 @@ Alınan kararlar:
 # Sprint 3
 
 - **Sprint notları:** Oyunda yapılan testler sonucunda bazı özellikler yetişmeyeceği ve bazı özelliklerde sorun yaşanıldığı için çıkarılmasına karar verildi.
-    * ML Agent Eğitilmesine karar verildi. ML Agent Eğitim Videosu : güncellenecek [MLAgent Eğitim Detayı GİTHUB REPO](https://github.com/mervetansoy/SlimeAgent) 
+    * ML Agent Eğitilmesine karar verildi.
+    * [MLAgent Eğitim Video](https://www.youtube.com/watch?v=fdJQ5SdHZiA&ab_channel=MerveTansoy)
+    * [MLAgent Eğitim Detayı GİTHUB REPO](https://github.com/mervetansoy/SlimeAgent)
+    * [MLAgent Eğitim Sonucu Video](https://www.youtube.com/watch?v=Bzq9JRpZFMU&ab_channel=MerveTansoy)
     * ![7](https://github.com/user-attachments/assets/0a1ac204-182d-40db-9a0b-abd80043d4e1)
     * Marketing görevlimizin yaptığı araştırmalar sonucunda oyunumuzu Steam üzerinden yayınlamaya karar verdik. Oyunumuz, 3.99$ fiyatıyla satışa sunulacaktır.
 - **Sprint için tamamlanması tahmin edilen puan:** 60 Puan
