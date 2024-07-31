@@ -129,6 +129,7 @@ Alınan kararlar:
 ![Ekran Görüntüsü (174)](https://github.com/user-attachments/assets/d2cb6f22-4a15-4a42-82c9-ffd86fdfe384)
 ![Ekran Görüntüsü (175)](https://github.com/user-attachments/assets/d716a363-3625-46f1-8cd9-aaf5b55a2b0f)
 ![Ekran Görüntüsü (177)](https://github.com/user-attachments/assets/2fe83a50-22c2-43fb-b862-75b19c30e0fc)
+![Ekran Görüntüsü (195)](https://github.com/user-attachments/assets/0aacd1bb-b120-4130-9180-c57e081e2513)
 
 - Ürün Durumu
 ![Ekran Görüntüsü (191)](https://github.com/user-attachments/assets/d9d81161-7891-4fe3-a8d7-8ba1442f5778)
