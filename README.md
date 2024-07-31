@@ -28,6 +28,8 @@
 - Multiplayer
 - Gameanalytics
 - FPS
+- Steam
+- ML Agent
 
 # Hedef Kitle
 - PC oyuncuları
