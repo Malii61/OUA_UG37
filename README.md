@@ -69,7 +69,7 @@
 
 # Sprint Review
 Alınan kararlar: Oyununun tasarımının low poly yapılmasına karar verilmiştir. Ana menü ve 1. sahne taslağı yapılmış ve geliştirilecektir
-- Review katılımcıları : Merve Tansoy , Muhammed Ali Tural , Mehmet Yavuz Marif , Aygül Acar
+- Review katılımcıları : Merve Tansoy , Muhammed Ali Tural , Mehmet Yavuz Marifet , Aygül Acar
 # Sprint Retrospective
 - Roller düzenlenmiş ve iş bölümü yapılmıştır.
 - Diğer sprinte daha yoğun tempoda olunmasına karar verildi
@@ -104,6 +104,7 @@ Alınan kararlar: Oyununun tasarımının low poly yapılmasına karar verilmiş
 Alınan kararlar:
 - 1.Sahnenin düzenlenilmesinin karar verilmiş ve oynayışa uygun şekilde düzenlenmiştir.
 - Sahnenin ışıklandırılması yetersiz bulunmuş bunun üzerine ekstra çalışılmasına karar verilmiştir.
+- Review katılımcıları : Merve Tansoy , Muhammed Ali Tural , Mehmet Yavuz Marifet , Aygül Acar
   
 # Sprint Retrospective
 - Roller güncellenmiştir.
@@ -144,7 +145,7 @@ Alınan kararlar:
 - Sahneler oynayışa uygun düzenlenmiş bazı gerekli eklemeler ve çıkarmalar yapılmıştır.
 - Oyun dosyaları düzenlendi ve fazla dosyalar kaldırıldı.
 - Oyun tanıtım videosu çekildi.
-- Review katılımcıları : Merve Tansoy , Muhammed Ali Tural , Mehmet Yavuz Marif , Aygül Acar
+- Review katılımcıları : Merve Tansoy , Muhammed Ali Tural , Mehmet Yavuz Marifet , Aygül Acar
 
 # Sprint Retrospective
 - Tamamlanması gereken 200 puanlık backlog tamamlanmıştır.
