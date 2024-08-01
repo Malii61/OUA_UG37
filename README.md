@@ -2,7 +2,10 @@
 **U37 Unity**
 
 # Oyun İsmi
-**MOONSHADE** [Tanıtım Videosu](https://www.youtube.com/watch?v=lysVYfA-MQ8&ab_channel=MerveTansoy)
+**MOONSHADE** 
+# Tanıtım Video
+[Moonshade](https://www.youtube.com/watch?v=lysVYfA-MQ8&ab_channel=MerveTansoy)
+
 
 # Takım Üyeleri
 | İsim  | Ünvan |
