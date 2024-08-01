@@ -101,7 +101,7 @@ Alınan kararlar: Oyununun tasarımının low poly yapılmasına karar verilmiş
 Alınan kararlar:
 - 1.Sahnenin düzenlenilmesinin karar verilmiş ve oynayışa uygun şekilde düzenlenmiştir.
 - Sahnenin ışıklandırılması yetersiz bulunmuş bunun üzerine ekstra çalışılmasına karar verilmiştir.
-- 
+  
 # Sprint Retrospective
 - Roller güncellenmiştir.
 - Online sistem test edilmiş ve başarıyla sonuçlanmıştır.
