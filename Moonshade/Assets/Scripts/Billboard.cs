@@ -11,7 +11,8 @@ public class Billboard : MonoBehaviour
         {
             foreach (var cam in FindObjectsByType<Camera>(FindObjectsSortMode.None))
             {
-                if (cam.enabled && cam.transform.root.GetComponent<PhotonView>().IsMine)
+                if (cam.enabled && cam.transform.root.GetComponent<PhotonView>() != null &&
+                    cam.transform.root.GetComponent<PhotonView>().IsMine)
                 {
                     this.cam = cam;
                 }

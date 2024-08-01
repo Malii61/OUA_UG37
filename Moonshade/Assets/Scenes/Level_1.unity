@@ -14223,6 +14223,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPos: {x: 0, y: 0, z: 0}
   cam: {fileID: 1325108525}
+  extraTransformsToDeactivate:
+  - {fileID: 1475488528}
+  - {fileID: 1724781115}
+  - {fileID: 1397845156}
 --- !u!4 &640640932
 Transform:
   m_ObjectHideFlags: 0

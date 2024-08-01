@@ -500,7 +500,7 @@ namespace StarterAssets
 
         private void ReloadScene()
         {
-            Loader.LoadNetwork(Loader.Scene.Level_1);
+                Loader.LoadNetwork(Loader.Scene.Level_1);
         }
     }
 }
