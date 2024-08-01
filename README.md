@@ -26,7 +26,7 @@
 
 - 3D
 - Multiplayer
-- Gameanalytics
+- Unity Analytics
 - FPS
 - Steam
 - ML Agent
@@ -101,7 +101,7 @@ Alınan kararlar: Oyununun tasarımının low poly yapılmasına karar verilmiş
 Alınan kararlar:
 - 1.Sahnenin düzenlenilmesinin karar verilmiş ve oynayışa uygun şekilde düzenlenmiştir.
 - Sahnenin ışıklandırılması yetersiz bulunmuş bunun üzerine ekstra çalışılmasına karar verilmiştir.
-- Review katılımcıları : Merve Tansoy , Muhammed Ali Tural , Mehmet Yavuz Marif , Aygül Acar
+- 
 # Sprint Retrospective
 - Roller güncellenmiştir.
 - Online sistem test edilmiş ve başarıyla sonuçlanmıştır.
@@ -138,10 +138,12 @@ Alınan kararlar:
 
 
 # Sprint Review
-- Oyun istenilen şekilde tamamlanmıştır
-- Tamamlanması gereken 200 puanlık backlog puanı tamamlanmıştır.
+- Sahneler oynayışa uygun düzenlenmiş bazı gerekli eklemeler ve çıkarmalar yapılmıştır.
+- Oyun dosyaları düzenlendi ve fazla dosyalar kaldırıldı.
+- Oyun tanıtım videosu çekildi.
+- Review katılımcıları : Merve Tansoy , Muhammed Ali Tural , Mehmet Yavuz Marif , Aygül Acar
 
 # Sprint Retrospective
-- Takım içi görev dağılımının gözden geçirilmesine karar verildi
+- Tamamlanması gereken 200 puanlık backlog tamamlanmıştır.
 
 
